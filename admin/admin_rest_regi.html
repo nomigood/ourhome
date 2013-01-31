@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>아워홈 | 식수신청프로그램</title>
+	<script type="text/javascript" src="../src/js/lib/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="../src/js/lib/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="../src/js/ui.js"></script>
+	<link rel="stylesheet" href="../src/css/default.css" media="all"/>
+</head>
+<body>
+<div id="wrap">
+	<div id="print_section">
+		<span class="title"><img src="../src/images/app_title_06.gif" alt="기숙사 식당 식사신청"/></span>
+		<table class="app_input regi_input app_complete">
+			<tbody>
+				<tr>
+					<th class="first"><label for="b_code">지점코드</label></th>
+					<td class="first"><input type="text" id="b_code" name="" size="27" maxlength="10" /></td>
+				</tr>
+				<tr>
+					<th><label for="b_name">지점명</label></th>
+					<td><input type="text" id="b_name" name="" size="27" maxlength="25" /></td>
+				</tr>
+				<tr>
+					<th><label for="b_manager">지점장 명</label></th>
+					<td><input type="text" id="b_manager" name="" size="27" maxlength="10" /></td>
+				</tr>
+				<tr>
+					<th><label for="b_tel">지점 연락처</label></th>
+					<td><input type="text" id="b_tel" name="" size="27" maxlength="15" /></td>
+				</tr>
+				<tr>
+					<th><label for="bm_mobile">지점장 핸드폰</label></th>
+					<td>
+						<select id="bm_mobile">
+							<option>010</option>
+						</select>
+						<span>-</span>
+						<input type="text" id="bm_mobile1" name="" size="8" maxlength="4"/>
+						<span>-</span>
+						<input type="text" id="bm_mobile2" name="" size="8" maxlength="4"/>
+					</td>
+				</tr>
+				<tr>
+					<th><label for="branch_add">지점 주소</label></th>
+					<td>
+						<p>
+							<input type="text" id="zip1" name="" size="8" maxlength="3" class="bg_none"/> <span>-</span> 
+							<input type="text" id="zip2" name="" size="8" maxlength="3" class="bg_none"/> 
+							<input type="image" id="zipcode" src="../src/images/btn_zipcode.gif" alt="우편번호" />
+						</p>
+						<p class="mt10"><input type="text" id="add1" name="" size="42" maxlength="45" class="bg_none"/></p>
+						<p class="mt10"><input type="text" id="add2" name="" size="42" maxlength="45" /><span class="tag">(남은 주소를 빠짐없이 입력해 주세요)</span></p>
+					</td>
+				</tr>
+				<tr>
+					<th>로고 이미지</th>
+					<td><input type="file" id="b_logo" name="" /></td>
+				</tr>
+			</tbody>
+		</table>
+		<div class="app_input_btn regi_input_btn">
+			<input type="image" id="print" src="../src/images/btn_save.gif" alt="저장" />
+			<input type="image" id="print" src="../src/images/btn_del.gif" alt="삭제" />
+			<a href="" onclick="javascript:window.close();"><img src="../src/images/btn_close.gif" alt="닫기"/></a>
+		</div>
+	</div>	
+</div>
+</body>
+</html>

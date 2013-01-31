@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* style author:nomi(nomidesign@me.com) */
+
+/***********************************************************************************************************************************************
+ * reset
+ **********************************************************************************************************************************************/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;font-style:normal;}
+body,input,textarea,select,button,table{font-family:'돋움',Dotum,'굴림',Gulim,Apple Gothic,Tahoma,sans-serif;font-size:12px;-webkit-text-size-adjust:none;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+
+/***********************************************************************************************************************************************
+ * 레이아웃
+ **********************************************************************************************************************************************/
+html,body {width:100%;height:100%;}
+#wrap {width:650px;height:100%;margin:0 auto;padding:0 20px;color:#999999}
+#pop_header {width:650px;height:auto;overflow:hidden}
+#pop_container {width:610px;height:auto;margin-bottom:50xp;padding:20px;border:1px solid #e1e1e1;overflow:hidden}
+#pop_header {margin-bottom:20px;}
+#pop_header h1 {margin:50px 0 40px 0;text-align:center}
+#pop_header p {margin-bottom:20px;text-align:center}
+
+#pop_container .area {margin-bottom:25px}
+#pop_container .area h2 {font-weight:bold}
+#pop_container .area p {line-height:20px}
+#pop_container .area ol,
+#pop_container .area ul {clear:both;margin-left:15px}
+#pop_container .area ol li {line-height:20px}
+#pop_container .area ol li p {margin:0 0 0 20px}
+#pop_container .area dl {width:100%;}
+#pop_container .area dl dt {float:left;line-height:20px;}
+#pop_container .area dl dd {line-height:20px;overflow:hidden}
+
+#pop_container .area ul li {text-indent:10px;line-height:20px;background:url(../images/privacy_bullet.gif) no-repeat 0 50%;}
+
+
+
+
+
+
+
+

@@ -1,0 +1,1 @@
+admin폴더안에 css/images/js/pages 폴더와 editor.html은 다음 에디터 관련 파일

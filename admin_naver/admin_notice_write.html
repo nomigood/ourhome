@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>아워홈 | 식수신청프로그램</title>
+	<link rel="stylesheet" href="../src/css/default.css" media="all"/>
+	<script type="text/javascript" src="../src/js/lib/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="../src/js/lib/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="../src/js/ui.js"></script>
+	<!-- 스마트에디터 자바스크립트 -->
+	<script type="text/javascript" src="./js/HuskyEZCreator.js" charset="utf-8"></script>
+	<!-- //스마트에디터 자바스크립트 -->
+</head>
+<body>
+<div id="wrap">
+	<div class="skip">
+		<a href="#section">본문바로가기</a>
+	</div>
+	<div id="header_wrap">
+		<div id="header">
+			<p><img src="../src/images/top_img.png" alt="아워홈 기숙사 식수신청 사이트입니다." /></p>
+		</div>
+	</div>
+	<div id="content_wrap">
+		<div id="container">
+			<div id="aside">
+				<h1><img src="../src/images/logo.png" alt="고려대학교" /></h1>
+				<ul class="admin_gnb">
+					<li><a href="#" class="menu01">로그인</a></li>
+					<li><a href="#" class="menu02">로그아웃</a></li>
+					<li><a href="#" class="menu03">신청내역조회</a></li>
+					<li><a href="#" class="menu04">식당정보관리</a></li>
+					<li><a href="#" class="menu05">식단관리</a></li>
+					<li><a href="#" class="menu06">가상계좌관리</a></li>
+					<li><a href="#" class="menu07">공지사항관리</a></li>
+					<li><a href="#" class="menu08">권한관리</a></li>
+					<li><a href="#" class="menu09">권한별메뉴관리</a></li>
+					<li><a href="#" class="menu10">메뉴관리</a></li>
+				</ul>
+			</div>
+			<div id="section">
+				<div class="ctn_bg_notice">페이지별 이미지 배경</div>
+				<h2><img src="../src/images/ctn_title01.gif" alt="공지사항" /></h2>
+				<div class="board_list">
+					<form action="" method="post">
+					<table class="write">
+						<tr>
+							<th><label for="subject">제목</label></th>
+							<td><input type="text" id="subject" name="subject" size="102"/></td>
+						</tr>
+						<tr>
+							<th><label for="subject">내용</label></th>
+							<td class="ctn">
+								<!-- 스마트 에디터 사용 안할때 위에 textarea주석을 풀어주고 스마트 에디터 삭제
+									스타일 시트는 210라인 참조-->
+								<!-- <textarea name="ctn" id="ctn" rows="10" cols="100"></textarea> -->
+								<!-- 네이버 스마트 에디터 -->
+								<textarea name="ir1" id="ir1" rows="10" cols="100" style="display:none;"></textarea>
+								<!-- //네이버 스마트 에디터 -->
+							</td>
+						</tr>
+						<tr class="last">
+							<th><label for="subject">게시 기간</label></th>
+							<td>
+								<input type="text" id="date1" name="date1" size="15"/> - <input type="text" id="date2" name="date2" size="15"/>
+							</td>
+						</tr>
+					</table>
+					<div class="write_btn">
+						<input type="image" id="btn_enrol" src="../src/images/btn_enrol.gif" alt="등록"/>
+						<input type="image" id="btn_delete" src="../src/images/btn_del.gif" alt="삭제"/>
+						<input type="image" id="btn_cancle" src="../src/images/btn_cancle.gif" alt="취소"/>
+					</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer_wrap">
+		<div id="footer">
+			<div id="logo_bg">아워홈 로고 배경</div>
+			<a href="http://ourhome.co.kr/" class="logo"><img src="../src/images/copyright_01.gif" alt="아워홈 홈페이지로 이동" /></a>
+			<address>
+				<img src="../src/images/copyright_02.gif" alt="서울시 강남구 역삼동 825-2 메리츠타워 4~6층" />
+				<img src="../src/images/copyright_03.gif" alt="Copyright(c) 2013 ourhome. All Rights Reserved." />
+			</address>
+			<p class="cscenter">연락처 : 02-000-0000</p>
+			<p class="privacy"><a href="#"><img src="../src/images/privacy.gif" alt="개인정보취급방침" /></a></p>
+			<div id="fmsite" class="foot_select">
+				<p><a href="#" class="family_title">FAMILY SITE</a></p>
+				<ul class="family_list">
+					<li><a href="http://www.ourhomehospitality.com/" target="_blank">아워홈외식</a></li>
+					<li><a href="http://www.amoris.co.kr/" target="_blank">아모리스</a></li>
+					<li><a href="http://www.saboten.co.kr/" target="_blank">사보텐</a></li>
+					<li><a href="http://www.burgerhunter.co.kr/" target="_blank">버거헌터</a></li>
+					<li><a href="http://www.welplaza.com/" target="_blank">웰프라자</a></li>
+					<li><a href="http://www.sonsoomall.com" target="_blank">손수몰</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- 네이버 스마트 에디터 스크립트 -->
+<script type="text/javascript">
+var oEditors = [];
+nhn.husky.EZCreator.createInIFrame({
+	oAppRef: oEditors,
+	elPlaceHolder: "ir1",
+	sSkinURI: "SmartEditor2Skin.html",	
+	htParams : {bUseToolbar : true,
+		fOnBeforeUnload : function(){
+			//alert("아싸!");	
+		}
+	}, //boolean
+	fOnAppLoad : function(){
+		//예제 코드
+		//oEditors.getById["ir1"].exec("PASTE_HTML", ["로딩이 완료된 후에 본문에 삽입되는 text입니다."]);
+	},
+	fCreator: "createSEditor2"
+});
+
+function pasteHTML() {
+	var sHTML = "<span style='color:#FF0000;'>이미지도 같은 방식으로 삽입합니다.<\/span>";
+	oEditors.getById["ir1"].exec("PASTE_HTML", [sHTML]);
+}
+
+function showHTML() {
+	var sHTML = oEditors.getById["ir1"].getIR();
+	alert(sHTML);
+}
+	
+function submitContents(elClickedObj) {
+	oEditors.getById["ir1"].exec("UPDATE_CONTENTS_FIELD", []);	// 에디터의 내용이 textarea에 적용됩니다.
+	
+	// 에디터의 내용에 대한 값 검증은 이곳에서 document.getElementById("ir1").value를 이용해서 처리하면 됩니다.
+	
+	try {
+		elClickedObj.form.submit();
+	} catch(e) {}
+}
+
+function setDefaultFont() {
+	var sDefaultFont = '궁서';
+	var nFontSize = 24;
+	oEditors.getById["ir1"].setDefaultFont(sDefaultFont, nFontSize);
+}
+</script>
+<!-- //네이버 스마트 에디터 스크립트 -->
+
+</body>
+</html>
