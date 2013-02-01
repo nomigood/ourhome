@@ -168,8 +168,8 @@ background:url(../images/bg_two.png) no-repeat left top;}
 #section .view_btn input {margin:0;padding:0;height:24px;border:none}
 
 /*신청내역조회 테이블*/
-#section .view_box {width:760px;height:auto;overflow-x: scroll}
-#section .large {width:1630px !important;}
+#section .view_box {margin-bottom:30px;width:760px;height:auto;overflow-x: scroll}
+#section .large {width:1630px !important;margin-bottom:15px !important;}
 #section .view_table {width:100%;margin-bottom:30px;}
 #section .view_table th {padding:14px 0;background:#f7f7df url(../images/th_bar.gif) no-repeat 0 50%;border-top:1px solid #acac16;border-bottom:1px solid #bfbfbf;font-weight:bold;color:#7b7c05}
 #section .view_table th.first {background-image:none}
@@ -272,6 +272,18 @@ background:url(../images/bg_one.png) no-repeat left top;}
 #footer .foot_select ul li {padding:0 10px;width:100%;line-height:18px;}
 #footer .foot_select ul li a {color:#fff}
 #footer .foot_select ul li a:hover {color:#f8c433}
+
+/*비밀번호찾기 팝업*/
+#find_pop {margin:0 auto;padding:20px;width:410px;}
+#find_pop table {margin:10px 0 12px 0;width:100%;color:#777;border-top:1px solid #acac16;border-bottom:1px solid #cacaca;}
+#find_pop table tr {height:37px;border-bottom:1px solid #E3E3E3;}
+#find_pop table tr.last {border:none;}
+#find_pop table tr th {padding-left:25px;width:124px;border-right:1px solid #E3E3E3;text-align:left;font-weight:bold;}
+#find_pop table tr td {padding:0 20px;}
+#find_pop table tr td strong {font-weight:bold;}
+#find_pop table tr td select {width:46px;height:23px;line-height:23px;border:1px solid #cecece;font-size:12px;vertical-align:middle}
+#find_pop table tr td input {padding-left:2px;height:20px;line-height:20px;border:1px solid #cecece;font-size:12px;}
+#find_pop .btn {text-align:center}
 
 /*print => html을 팝업으로 사용할 경우*/
 #section .print_title {display:none}
