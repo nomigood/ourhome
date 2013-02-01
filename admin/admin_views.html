@@ -37,7 +37,7 @@
 			</div>
 			<div id="section">
 				<div class="ctn_bg_admin">페이지별 이미지 배경</div>
-				<h2><img src="../src/images/ctn_title03.gif" alt="신청내역조회" /></h2>
+				<h2><img src="../src/images/ctn_title03.gif" alt="신청내역조회" /></h2>				
 				<table class="view_srch">
 					<tr>
 						<th>모집구분</th>
@@ -57,141 +57,140 @@
 						</td>
 					</tr>
 					<tr>
-						<th>입금여부</th>
-						<td>
-							<select id="payment" name="payment" style="width:50px">
-								<option>Y</option>
-							</select>
-						</td>
 						<th>검색조건</th>
-						<td class="last">
+						<td colspan="3" class="last" style="width:630px">
 							<select id="name" name="name" style="width:85px">
 								<option>이름</option>
 							</select>
 							<label for="name_srch">이름검색</label>
-							<input type="text" name="" id="name_srch" value="" maxlength="15" size="20"/>
+							<input type="text" name="" id="name_srch" value="" maxlength="15" style="width:340px"/>
+							<span class="view_btn">
+								<input type="image" id="btn_views" src="../src/images/btn_views.gif" alt="조회"/>
+								<input type="image" id="btn_exel" src="../src/images/btn_exel.gif" alt="엑셀다운로드"/>
+							</span>
 						</td>
 					</tr>
 				</table>
-				<p class="views_btn"><input type="image" id="btn_views" src="../src/images/btn_views.gif" alt="조회"/></p>
-				<table class="view_table">
-					<colgroup>
-						<col width="49" />
-						<col width="37" />
-						<col width="47" />
-						<col width="50" />
-						<col width="69" />
-						<col width="58" />
-						<col width="63" />
-						<col width="48" />
-						<col width="36" />
-						<col width="73" />
-						<col width="65" />
-						<col width="51" />
-						<col width="49" />
-						<col width="64" />
-					</colgroup>
-					<thead>
-						<tr>
-							<th class="first">성명</th>
-							<th>학번</th>
-							<th>학과</th>
-							<th>연락처</th>
-							<th>E-mail</th>
-							<th>선택식<br/>종류</th>
-							<th>납부금액</th>
-							<th>입금<br/>구분</th>
-							<th>입금<br/>은행</th>
-							<th>입금기간</th>
-							<th>입금계좌</th>
-							<th>입금액</th>
-							<th>차액</th>
-							<th>입금일시</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>홍길동</td>
-							<td>2012<br/>0000<br/>0000</td>
-							<td>고려대<br/>ㅇㅇㅇ<br/>학과</td>
-							<td>010<br/>-0000<br/>-0000</td>
-							<td>testmail<br/>@test.com</td>
-							<td>정기식A</td>
-							<td>48,000</td>
-							<td>미입금</td>
-							<td>우리<br/>은행</td>
-							<td>2013-01-01<br/>~<br/>2013-02-28</td>
-							<td>1056-520<br/>-20-101</td>
-							<td>48,000</td>
-							<td>0</td>
-							<td>13-01-11<br/>오전<br/>11:10:22</td>
-						</tr>
-						<tr>
-							<td>홍길동</td>
-							<td>2012<br/>0000<br/>0000</td>
-							<td>고려대<br/>ㅇㅇㅇ<br/>학과</td>
-							<td>010<br/>-0000<br/>-0000</td>
-							<td>testmail<br/>@test.com</td>
-							<td>정기식A</td>
-							<td>48,000</td>
-							<td>미입금</td>
-							<td>우리<br/>은행</td>
-							<td>2013-01-01<br/>~<br/>2013-02-28</td>
-							<td>1056-520<br/>-20-101</td>
-							<td>48,000</td>
-							<td>0</td>
-							<td>13-01-11<br/>오전<br/>11:10:22</td>
-						</tr>
-						<tr>
-							<td>홍길동</td>
-							<td>2012<br/>0000<br/>0000</td>
-							<td>고려대<br/>ㅇㅇㅇ<br/>학과</td>
-							<td>010<br/>-0000<br/>-0000</td>
-							<td>testmail<br/>@test.com</td>
-							<td>정기식A</td>
-							<td>48,000</td>
-							<td>미입금</td>
-							<td>우리<br/>은행</td>
-							<td>2013-01-01<br/>~<br/>2013-02-28</td>
-							<td>1056-520<br/>-20-101</td>
-							<td>48,000</td>
-							<td>0</td>
-							<td>13-01-11<br/>오전<br/>11:10:22</td>
-						</tr>
-						<tr>
-							<td>홍길동</td>
-							<td>2012<br/>0000<br/>0000</td>
-							<td>고려대<br/>ㅇㅇㅇ<br/>학과</td>
-							<td>010<br/>-0000<br/>-0000</td>
-							<td>testmail<br/>@test.com</td>
-							<td>정기식A</td>
-							<td>48,000</td>
-							<td>미입금</td>
-							<td>우리<br/>은행</td>
-							<td>2013-01-01<br/>~<br/>2013-02-28</td>
-							<td>1056-520<br/>-20-101</td>
-							<td>48,000</td>
-							<td>0</td>
-							<td>13-01-11<br/>오전<br/>11:10:22</td>
-						</tr>
-						<tr>
-							<td>홍길동</td>
-							<td>2012<br/>0000<br/>0000</td>
-							<td>고려대<br/>ㅇㅇㅇ<br/>학과</td>
-							<td>010<br/>-0000<br/>-0000</td>
-							<td>testmail<br/>@test.com</td>
-							<td>정기식A</td>
-							<td>48,000</td>
-							<td>미입금</td>
-							<td>우리<br/>은행</td>
-							<td>2013-01-01<br/>~<br/>2013-02-28</td>
-							<td>1056-520<br/>-20-101</td>
-							<td>48,000</td>
-							<td>0</td>
-							<td>13-01-11<br/>오전<br/>11:10:22</td>
-						</tr>
-					</tbody>
-				</table>	
+				<div class="view_box">
+					<table class="view_table large">
+						<colgroup>
+							<col width="49" />
+							<col width="37" />
+							<col width="47" />
+							<col width="50" />
+							<col width="69" />
+							<col width="58" />
+							<col width="63" />
+							<col width="48" />
+							<col width="36" />
+							<col width="73" />
+							<col width="65" />
+							<col width="51" />
+							<col width="49" />
+							<col width="64" />
+						</colgroup>
+						<thead>
+							<tr>
+								<th class="first">성명</th>
+								<th>학번</th>
+								<th>학과</th>
+								<th>연락처</th>
+								<th>E-mail</th>
+								<th>선택식<br/>종류</th>
+								<th>납부금액</th>
+								<th>입금<br/>구분</th>
+								<th>입금<br/>은행</th>
+								<th>입금기간</th>
+								<th>입금계좌</th>
+								<th>입금액</th>
+								<th>차액</th>
+								<th>입금일시</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>홍길동</td>
+								<td>2012<br/>0000<br/>0000</td>
+								<td>고려대<br/>ㅇㅇㅇ<br/>학과</td>
+								<td>010<br/>-0000<br/>-0000</td>
+								<td>testmail<br/>@test.com</td>
+								<td>정기식A</td>
+								<td>48,000</td>
+								<td>미입금</td>
+								<td>우리<br/>은행</td>
+								<td>2013-01-01<br/>~<br/>2013-02-28</td>
+								<td>1056-520<br/>-20-101</td>
+								<td>48,000</td>
+								<td>0</td>
+								<td>13-01-11<br/>오전<br/>11:10:22</td>
+							</tr>
+							<tr>
+								<td>홍길동</td>
+								<td>2012<br/>0000<br/>0000</td>
+								<td>고려대<br/>ㅇㅇㅇ<br/>학과</td>
+								<td>010<br/>-0000<br/>-0000</td>
+								<td>testmail<br/>@test.com</td>
+								<td>정기식A</td>
+								<td>48,000</td>
+								<td>미입금</td>
+								<td>우리<br/>은행</td>
+								<td>2013-01-01<br/>~<br/>2013-02-28</td>
+								<td>1056-520<br/>-20-101</td>
+								<td>48,000</td>
+								<td>0</td>
+								<td>13-01-11<br/>오전<br/>11:10:22</td>
+							</tr>
+							<tr>
+								<td>홍길동</td>
+								<td>2012<br/>0000<br/>0000</td>
+								<td>고려대<br/>ㅇㅇㅇ<br/>학과</td>
+								<td>010<br/>-0000<br/>-0000</td>
+								<td>testmail<br/>@test.com</td>
+								<td>정기식A</td>
+								<td>48,000</td>
+								<td>미입금</td>
+								<td>우리<br/>은행</td>
+								<td>2013-01-01<br/>~<br/>2013-02-28</td>
+								<td>1056-520<br/>-20-101</td>
+								<td>48,000</td>
+								<td>0</td>
+								<td>13-01-11<br/>오전<br/>11:10:22</td>
+							</tr>
+							<tr>
+								<td>홍길동</td>
+								<td>2012<br/>0000<br/>0000</td>
+								<td>고려대<br/>ㅇㅇㅇ<br/>학과</td>
+								<td>010<br/>-0000<br/>-0000</td>
+								<td>testmail<br/>@test.com</td>
+								<td>정기식A</td>
+								<td>48,000</td>
+								<td>미입금</td>
+								<td>우리<br/>은행</td>
+								<td>2013-01-01<br/>~<br/>2013-02-28</td>
+								<td>1056-520<br/>-20-101</td>
+								<td>48,000</td>
+								<td>0</td>
+								<td>13-01-11<br/>오전<br/>11:10:22</td>
+							</tr>
+							<tr>
+								<td>홍길동</td>
+								<td>2012<br/>0000<br/>0000</td>
+								<td>고려대<br/>ㅇㅇㅇ<br/>학과</td>
+								<td>010<br/>-0000<br/>-0000</td>
+								<td>testmail<br/>@test.com</td>
+								<td>정기식A</td>
+								<td>48,000</td>
+								<td>미입금</td>
+								<td>우리<br/>은행</td>
+								<td>2013-01-01<br/>~<br/>2013-02-28</td>
+								<td>1056-520<br/>-20-101</td>
+								<td>48,000</td>
+								<td>0</td>
+								<td>13-01-11<br/>오전<br/>11:10:22</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
 			</div>
 		</div>
 	</div>
