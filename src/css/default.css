@@ -113,15 +113,15 @@ background:url(../images/bg_two.png) no-repeat left top;}
 #section .app_input tbody th em {color:red}
 #section .app_input tbody th p {font-weight:normal;font-family: Arial, Helvetica, sans-serif;font-size:11px;color:#999}
 #section .app_input tbody td {padding:10px 10px;border-bottom:1px solid #e3e3e3}
-#section .app_input tbody td input {vertical-align:middle}
+#section .app_input tbody td input {vertical-align:middle;}
 #section .app_input tbody td strong {font-weight: bold}
 #section .app_input tbody td.price {font-weight:bold;color:red}
 #section .app_input tbody td input[type=text],
-#section .app_input tbody td input[type=password] {width:174px;height:20px;border:1px solid #cecece}
+#section .app_input tbody td input[type=password] {width:174px;height:20px;line-height:20px;border:1px solid #cecece;font-size:12px;}
 #section .app_input tbody td input[type=image] {margin-left:6px}
 #section .app_input tbody td input.phone {width:59px;}
 #section .app_input tbody td input.mail {width:134px;}
-#section .app_input tbody td select {width:auto;height:23px;border:1px solid #cecece;vertical-align:middle}
+#section .app_input tbody td select {width:auto;height:23px;line-height:23px;border:1px solid #cecece;vertical-align:middle;font-size:12px;}
 #section .app_input tbody td span {margin-left:20px;color:#f18101}
 #section .app_input tbody td p {margin-top:5px;font-size:11px;}
 #section .app_input_btn {margin-bottom:30px;text-align:center}
@@ -146,7 +146,7 @@ background:url(../images/bg_two.png) no-repeat left top;}
 .login_form .field dl dt {float:left;margin-top:8px;padding-right:10px;width:60px;font-weight:bold;text-align:right;}
 .login_form .field dl dd {margin-bottom:7px;height:26px;}
 .login_form .field dl dd input[type=text],
-.login_form .field dl dd input[type=password] {width:170px;height:22px;border:1px solid #d1d1d1}
+.login_form .field dl dd input[type=password] {width:170px;height:22px;line-height:22px;border:1px solid #d1d1d1;font-size:12px;}
 
 /*신청내역조회 상단 정보*/
 #section .view_info {margin:30px 0 15px 0;padding:10px 0;width:100%;border-top:1px solid #acac16;border-bottom:1px solid #bfbfbf;color:#929292;overflow:hidden}
@@ -283,7 +283,7 @@ background:url(../images/bg_one.png) no-repeat left top;}
 #print_section .app_input tbody td strong {font-weight: bold}
 #print_section .app_input tbody td.price {font-weight:bold;color:red}
 #print_section .app_input tbody td input[type=text],
-#print_section .app_input tbody td input[type=password] {width:174px;height:20px;border:1px solid #cecece}
+#print_section .app_input tbody td input[type=password] {width:174px;height:20px;line-height:20px;border:1px solid #cecece;font-size:12px;}
 #print_section .app_input tbody td input[type=image] {margin-left:6px}
 #print_section .app_input tbody td input.phone {width:59px;}
 #print_section .app_input tbody td input.mail {width:134px;}
@@ -302,8 +302,8 @@ background:url(../images/bg_one.png) no-repeat left top;}
 #print_section .regi_input tbody td input[type=text] {padding-left:5px;width:auto;height:20px;border:1px solid #cecece;background:#f8f8f8;font-size:12px;line-height:20px;}
 #print_section .regi_input_btn {text-align:right;} /*식당 정보 등록 폼 버튼 정렬*/
 
-#file_pop {margin:0 auto;padding:20px;width:360px;height:auto}
-#file_pop form {margin-top:10px;padding:25px 30px;width:360px;background:#fafafa;border:1px solid #cecece;overflow:hidden;}
+#file_pop {margin:0 auto;padding:20px;width:360px;height:auto;overflow:hidden}
+#file_pop form {margin-top:10px;padding:25px 30px;width:300px;background:#fafafa;border:1px solid #cecece;overflow:hidden;}
 #file_pop form label {margin-top:5px;color:#999999;display:block;}
 #file_pop input[type=file] {padding-left:5px;width:auto;height:23px;border:1px solid #cecece;background:#fff;font-size:12px;line-height:23px;}
 
