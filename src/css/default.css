@@ -189,6 +189,8 @@ background:url(../images/bg_two.png) no-repeat left top;}
 #section .board_list form .srch .keyword {margin-left:1px;padding:2px 3px 5px;border:1px solid #b5b5b5;font-size:12px;line-height:15px}
 
 /*게시판 리스트*/
+#section .board_list .total {margin-right:5px;text-align:right;color:#929292;}
+#section .board_list .total strong {font-weight:bold;}
 #section .board_list table {float:left;margin-top:12px;margin-bottom:10px;width:100%;}
 #section .board_list table th {margin-left:-1px;padding:14px 0;background:#f7f7df url(../images/th_bar.gif) no-repeat 0 50%;border-top:1px solid #acac16;border-bottom:1px solid #bfbfbf;}
 #section .board_list table th.first {background-image:none}
