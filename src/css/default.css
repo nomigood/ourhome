@@ -169,7 +169,7 @@ background:url(../images/bg_two.png) no-repeat left top;}
 #section .view_btn input {margin:0;padding:0;height:24px;border:none}
 
 /*신청내역조회 테이블*/
-#section .view_box {margin-bottom:30px;width:760px;height:auto;overflow-x: scroll}
+#section .view_box {margin-bottom:10px;width:760px;height:auto;overflow-x: scroll}
 #section .large {width:1630px !important;margin-bottom:15px !important;}
 #section .view_table {width:100%;margin-bottom:30px;}
 #section .view_table th {padding:14px 0;background:#f7f7df url(../images/th_bar.gif) no-repeat 0 50%;border-top:1px solid #acac16;border-bottom:1px solid #bfbfbf;font-weight:bold;color:#7b7c05}
