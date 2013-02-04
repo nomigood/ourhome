@@ -131,6 +131,7 @@ background:url(../images/bg_two.png) no-repeat left top;}
 #section .app_complete td.first {border-top:1px solid #acac16;}
 #section .app_complete th {padding-left:15px;width:133px;background:#f9f9f9;text-align:left}
 #section .personal_cer {margin-top:14px !important;}
+#section .personal_cer td a {position:absolute;margin-left:5px;}
 
 /*폼 설명부분*/
 #section p.tag1 {clear:both;margin-left:100px;color:#f18101;text-align:left}
