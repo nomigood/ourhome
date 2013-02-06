@@ -233,6 +233,7 @@ background:url(../images/bg_two.png) no-repeat left top;}
 #section .board_list .paginate *{display:inline-block;position:relative;margin:0 -2px;padding:0px 4px;font-size:11px;font-family:Tahoma, Sans-serif;color:#333;line-height:15px;text-decoration:none;vertical-align:middle}
 #section .board_list .paginate a {width:auto;padding:0 10px;height:15px;background:url(../images/th_bar.gif) no-repeat 0 50%;}
 #section .board_list .paginate a.first {background:none;}
+#section .board_list .paginate a.second {font-weight:bold; color:#f08200;}
 #section .board_list .paginate a:hover,
 #section .board_list .paginate a:active,
 #section .board_list .paginate a:focus {background-color:#f8f8f8}
@@ -281,11 +282,12 @@ background:url(../images/bg_one.png) no-repeat left top;}
 #find_pop table {margin:10px 0 12px 0;width:100%;color:#777;border-top:1px solid #acac16;border-bottom:1px solid #cacaca;}
 #find_pop table tr {height:37px;border-bottom:1px solid #E3E3E3;}
 #find_pop table tr.last {border:none;}
-#find_pop table tr th {padding-left:25px;width:124px;border-right:1px solid #E3E3E3;text-align:left;font-weight:bold;}
-#find_pop table tr td {padding:0 20px;}
+#find_pop table tr th {padding-left:25px;width:124px;border-right:1px solid #E3E3E3;*border-bottom:1px solid #E3E3E3;text-align:left;font-weight:bold;}
+#find_pop table tr td {padding:0 10px 0 20px;*border-bottom:1px solid #E3E3E3;}
 #find_pop table tr td strong {font-weight:bold;}
-#find_pop table tr td select {width:46px;height:23px;line-height:23px;border:1px solid #cecece;font-size:12px;vertical-align:middle}
-#find_pop table tr td input {padding-left:2px;height:20px;line-height:20px;border:1px solid #cecece;font-size:12px;}
+#find_pop table tr td select {float:left;width:46px;height:23px;line-height:23px;border:1px solid #cecece;font-size:12px;vertical-align:middle;}
+#find_pop table tr td input {float:left;padding-left:2px;height:20px;line-height:20px;border:1px solid #cecece;font-size:12px;}
+#find_pop table tr td span {float:left;margin:0 5px;height:23px;line-height:23px;}
 #find_pop .btn {text-align:center}
 
 /*print => html을 팝업으로 사용할 경우*/

@@ -1,1 +1,0 @@
-admin폴더안에 css/img/js/quick_photo_uploader 폴더와 smartxxxxx.html은 네이버 스마트에디터 관련 파일
