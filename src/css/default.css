@@ -129,6 +129,9 @@ background:url(../images/bg_two.png) no-repeat left top;}
 #section .app_input_btn {margin-bottom:30px;text-align:center}
 #section .app_input tbody td input[type=file] {padding-left:5px;width:auto;height:20px;border:1px solid #cecece;background:#f8f8f8;font-size:12px;line-height:20px;}
 
+/*식단정보등록 20130213 추가*/
+#section .property .app_input tbody td input[type=text] {background:#F8F8F8;}
+
 /*개인정보인증*/
 #section .app_complete th.first, 
 #section .app_complete td.first {border-top:1px solid #acac16;}
@@ -326,11 +329,13 @@ background:url(../images/bg_one.png) no-repeat left top;}
 #print_section .regi_input tbody td input[type=text] {padding-left:5px;width:auto;height:20px;border:1px solid #cecece;background:#f8f8f8;font-size:12px;line-height:20px;}
 #print_section .regi_input_btn {text-align:right;} /*식당 정보 등록 폼 버튼 정렬*/
 
+/*파일 올리기 팝업*/
 #file_pop {margin:0 auto;padding:20px;width:360px;height:auto;overflow:hidden}
 #file_pop form {margin-top:10px;padding:25px 30px;width:300px;background:#fafafa;border:1px solid #cecece;overflow:hidden;}
 #file_pop form label {margin-top:5px;color:#999999;display:block;}
 #file_pop input[type=file] {padding-left:5px;width:auto;height:23px;border:1px solid #cecece;background:#fff;font-size:12px;line-height:23px;}
 
+/*우편번호 팝업*/
 #zip_pop {margin:0 auto;padding:20px;width:360px;height:auto;color:#777777;overflow:hidden}
 #zip_pop p.box {margin-top:11px;padding-bottom:14px;width:100%;border-bottom:1px solid #ABAC16}
 #zip_pop form {padding:13px 10px;width:340px;overflow:hidden;}
@@ -339,7 +344,6 @@ background:url(../images/bg_one.png) no-repeat left top;}
 #zip_pop form input {margin-left:5px;}
 #zip_pop form input[type=radio] {margin-top:-2px;font-size:12px;vertical-align: middle;}
 #zip_pop form input[type=text] {padding-left:5px;width:auto;height:20px;border:1px solid #cecece;background:#f8f8f8;font-size:12px;line-height:20px;}
-
 #zip_pop .zip_list {padding:14px 10px 10px;width:340px;border-top:1px solid #E3E3E3;}
 #zip_pop .zip_list p strong {font-weight:bold;}
 #zip_pop .zip_list p em {color:#EE2E24;}
