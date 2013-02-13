@@ -38,124 +38,66 @@
 					<li><a href="#" class="menu08">권한관리</a></li>
 					<li><a href="#" class="menu09">권한별메뉴관리</a></li>
 					<li><a href="#" class="menu10">메뉴관리</a></li>
+					<li><a href="#" class="menu11">신청대상관리</a></li>
 				</ul>
 			</div>
 			<div id="section">
 				<div class="ctn_bg_admin">페이지별 이미지 배경</div>
 				<h2><img src="../src/images/ctn_title06.gif" alt="식당정보관리" /></h2>
-				<table class="view_srch">
-					<tr>
-						<th>모집구분</th>
-						<td>
-							<select id="year" name="year" style="width:85px">
-								<option>2012</option>
-							</select>
-							<select id="term" name="term" style="width:85px">
-								<option>2학기</option>
-							</select>
-						</td>
-						<th>선택식</th>
-						<td class="last">
-							<select id="whole" name="whole" style="width:85px">
-								<option>--전체--</option>
-							</select>
-						</td>
-					</tr>
-					<tr>
-						<th>입금여부</th>
-						<td>
-							<select id="payment" name="payment" style="width:50px">
-								<option>Y</option>
-							</select>
-						</td>
-						<th>검색조건</th>
-						<td class="last">
-							<select id="name" name="name" style="width:85px">
-								<option>이름</option>
-							</select>
-							<label for="name_srch">이름검색</label>
-							<input type="text" name="" id="name_srch" value="" maxlength="15" size="20"/>
-						</td>
-					</tr>
-				</table>
-				<p class="views_btn"><input type="image" id="btn_views" src="../src/images/btn_views.gif" alt="조회"/></p>
-				<table class="view_table view_manage">
-					<colgroup>
-						<col width="82" />
-						<col width="79" />
-						<col width="70" />
-						<col width="92" />
-						<col width="102" />
-						<col width="71" />
-						<col width="173" />
-						<col width="90" />
-					</colgroup>
-					<thead>
-						<tr>
-							<th class="first">지점코드</th>
-							<th>지점명</th>
-							<th>지정장명</th>
-							<th>지점 연락처</th>
-							<th>지점장 핸드폰</th>
-							<th>우편번호</th>
-							<th>지점주소</th>
-							<th>등록일자</th>
-						</tr>
-					</thead>
+				<table class="app_input regi_input app_complete">
 					<tbody>
 						<tr>
-							<td>FAX10</td>
-							<td>고려대학교</td>
-							<td>여지영</td>
-							<td>02-3290-1814</td>
-							<td>010-0000-0000</td>
-							<td>152-111</td>
-							<td>서울시 성북구 안암로 145 고려대학교 안암학사</td>
-							<td>2013-01-11<br/>오전 11:10:22</td>
+							<th class="first"><label for="b_code">지점코드</label></th>
+							<td class="first"><input type="text" id="b_code" name="" size="27" maxlength="10" /></td>
 						</tr>
 						<tr>
-							<td>FAX10</td>
-							<td>고려대학교</td>
-							<td>여지영</td>
-							<td>02-3290-1814</td>
-							<td>010-0000-0000</td>
-							<td>152-111</td>
-							<td>서울시 성북구 안암로 145 고려대학교 안암학사</td>
-							<td>2013-01-11<br/>오전 11:10:22</td>
+							<th><label for="b_name">지점명</label></th>
+							<td><input type="text" id="b_name" name="" size="27" maxlength="25" /></td>
 						</tr>
 						<tr>
-							<td>FAX10</td>
-							<td>고려대학교</td>
-							<td>여지영</td>
-							<td>02-3290-1814</td>
-							<td>010-0000-0000</td>
-							<td>152-111</td>
-							<td>서울시 성북구 안암로 145 고려대학교 안암학사</td>
-							<td>2013-01-11<br/>오전 11:10:22</td>
+							<th><label for="b_manager">지점장 명</label></th>
+							<td><input type="text" id="b_manager" name="" size="27" maxlength="10" /></td>
 						</tr>
 						<tr>
-							<td>FAX10</td>
-							<td>고려대학교</td>
-							<td>여지영</td>
-							<td>02-3290-1814</td>
-							<td>010-0000-0000</td>
-							<td>152-111</td>
-							<td>서울시 성북구 안암로 145 고려대학교 안암학사</td>
-							<td>2013-01-11<br/>오전 11:10:22</td>
+							<th><label for="b_tel">지점 연락처</label></th>
+							<td><input type="text" id="b_tel" name="" size="27" maxlength="15" /></td>
 						</tr>
 						<tr>
-							<td>FAX10</td>
-							<td>고려대학교</td>
-							<td>여지영</td>
-							<td>02-3290-1814</td>
-							<td>010-0000-0000</td>
-							<td>152-111</td>
-							<td>서울시 성북구 안암로 145 고려대학교 안암학사</td>
-							<td>2013-01-11<br/>오전 11:10:22</td>
+							<th><label for="bm_mobile">지점장 핸드폰</label></th>
+							<td>
+								<select id="bm_mobile" style="width:50px;">
+									<option>010</option>
+								</select>
+								<span style="margin:0;color:#999;">-</span>
+								<input type="text" id="bm_mobile1" name="" size="8" maxlength="4" style="width:64px;"/>
+								<span style="margin:0;color:#999;">-</span>
+								<input type="text" id="bm_mobile2" name="" size="8" maxlength="4" style="width:64px;"/>
+							</td>
+		
+						</tr>
+						<tr>
+							<th><label for="branch_add">지점 주소</label></th>
+							<td>
+								<p>
+									<input type="text" id="zip1" name="" size="8" maxlength="3" class="bg_none" style="width:64px;"/> <span style="margin:0;color:#999;">-</span> 
+									<input type="text" id="zip2" name="" size="8" maxlength="3" class="bg_none" style="width:64px;"/> 
+									<input type="image" id="zipcode" src="../src/images/btn_zipcode.gif" alt="우편번호" />
+								</p>
+								<p class="mt10"><input type="text" id="add1" name="" size="42" maxlength="45" class="bg_none" style="width:265px;"/></p>
+								<p class="mt10"><input type="text" id="add2" name="" size="42" maxlength="45" style="width:265px;"/><span class="tag" style="margin:0 0 0 5px;color:#999;">(남은 주소를 빠짐없이 입력해 주세요)</span></p>
+							</td>
+						</tr>
+						<tr>
+							<th>로고 이미지</th>
+							<td><input type="file" id="b_logo" name="" /></td>
 						</tr>
 					</tbody>
 				</table>
-				<p class="views_btn"><a href="#" onclick="javascript:regiPop();"><img src="../src/images/btn_enrol.gif" alt="등록" ></a></p>		
+				<div class="app_input_btn regi_input_btn">
+					<input type="image" id="print" src="../src/images/btn_save.gif" alt="저장" />
+					<input type="image" id="print" src="../src/images/btn_del.gif" alt="삭제" />
+					<a href="" onclick="javascript:window.close();"><img src="../src/images/btn_close.gif" alt="닫기"/></a>
+				</div>
 			</div>
 		</div>
 	</div>
